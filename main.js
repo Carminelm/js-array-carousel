@@ -38,7 +38,7 @@ allImgs[0].classList.toggle("hidden");
 const indietroBtn = document.querySelector("#indietro");
 const avantiBtn = document.querySelector("#avanti");
 let index = 0;
-//indietroBtn.style.display = "none";
+indietroBtn.style.display = "none";
 
 
 //gestiamo il click su indietro
@@ -46,9 +46,9 @@ indietroBtn.addEventListener("click", function(){
 
     if (index >0) {
 
-        allImgs[Index].classList.toggle("hidden");
+
         index--;
-        allImgs[index].classList.toggle("hidden");
+
 
     }
 
